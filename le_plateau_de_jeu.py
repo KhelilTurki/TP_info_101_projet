@@ -30,3 +30,15 @@ def init_bonus() :
     return(res)
   def ini_jetons() :
     return (vide_tableau()) 
+
+def init_jetons():
+    ligne=[]
+    colonne=[]
+    for i in range (0,15):
+        colonne.append(" ")
+        ligne.append(colonne)
+    i=0
+    while i<15:
+        print(ligne[i])
+        i+=1
+
